@@ -48,7 +48,38 @@ Write-Host "
 
                                              
                                              
+                     1. Detection Modules  - Find Malicious Activity on your system. To access type 'Detection'
+                     2. Collection Modules - Scan for vulnerabilities on your system. To access type 'Collection'
+                     3. Protection Modules - Harden your system using information from the collection modules. To access type 'Protection'                   
+                                            
+                                            
                                              " -ForegroundColor yellow
-Function List-Menu {
-    Write-Host "Welcome to PowerHunt"
+Function Detection {
+    Write-Host "Welcome to the Detection Module"
+
+    Write-Host " 
+                    1. Check for Remote Connections established (3 hour interval) 
+                    2. List last logged on users (3 hour interval)
+                    3. Check for recently created Services (3 hour interval) 
+                    4. Check for recently created WMI elements (3 hour interval)
+                    5. Check for recently created Startup Tasks (3 hour interval)
+                    6. Check for files Administrator DOES NOT have access too
+                    7. List recently created files in suspicious locations (3 hour interval)
+                        -Includes System32, %AppData%, and boot folder 
+               " -ForegroundColor yellow
+}
+
+Function Collection {
+    Write-Host "Welcome to the Collection Module"
+
+    Write-Host " 
+                    1. Vulnerable to Eternal Blue?
+                    2. Vulnerable to BlueKeep?
+                    3. Vulnerable to StickeyKeys persistance?
+                    4. Vulnerable to LLMNR poisoning?
+                    5. Vulnerable to NTLM Hash capturing?
+                    6. Vulnerable to BloodHound?
+                    7. Run an automated scan to check for all vulnerabilities on your system!
+                    
+               " -ForegroundColor yellow
 }
