@@ -1,0 +1,54 @@
+Write-Host "
+                                           `.-::///++++//:::-`                                      
+                                  .-:+yhdmmNNMMMMMMMMMMNMMMMMNmhy+:`                                
+                           `-:+shNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNNy:`                             
+                      ./ohmNNNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNh-                            
+                     :mNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNo.                          
+                    `mMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMNmo:                        
+                    /MMMMMMMMMMMMMMMMMMMMMMMMMMMNhs+/:-::/+ssyydNMMMMMMMMMMNy+                      
+                   .mMMMMMMMMMMMMMMMMMMMMNMMmho:.`             `-+yMMMMMMMMMMN-                     
+                  :mMMMMMMMMMMMMMMMds/---+/-.`                    .NMMMMMMMMMM/                     
+                `sNMMMMMMMMMMMMMNd/.                              `NMMMMMMMMMMs                     
+               .dMMMMMMMMMMMMMNd+`                                 mMMMMMMMMMMd`                    
+              `dMMMMMMMMMMMNdy/`                                   hMMMMMMMMMMMs`                   
+              -NMMMMMMMMMMN:`                                      oMMMMMMMMMMMMo                   
+              .NMMMMMMMMMMo                                        `dMMMMMMMMMMMNo.`                
+              /NMMMMMMMMMy`                                         :NMMMMMMMMMMMMmo                
+              sMMMMMMMMMh.                                          `dMMMMMMMMMMMMMN`               
+              yMMMMMMMMm.                             ````           +NMMMMMMMMMMMMM:               
+              :hNMMMMMN:    ```````````.......--:/+osyhhhhys+:.      `hMMMMMMMMmdmMMo               
+               `mMMMMMy`-/shdddddddddddmo+o++oNMMMMMMMMMMMMMMMms. ``-/yNMMMMMMh. .NMh               
+              `yMMMMMMhhNMMMMMMMMMMMMMMMd+:-:dMMMMMMMMMMMMMMMMMMmsso+-`:MMMMMM+  .NMN`              
+              -NNMMMMMMMMMMMMMMMMMMMMMMMN.   yMMMMMMMMMMMMMMMMMMMs`     yMMMMM/  `dMN:              
+               /hNNMMMMMMMMMMMMMMMMMMMMMh    .mMMMMMMMMMMMMMMMMMM:      .NMMMMo   yMMs              
+                 `:+ymMMMMMMMMMMMMMMMMMd.     .yNMMMMMMMMMMMMMMMd`       yMMMM+   +MM+              
+                     -NMMMMMMMMMMMMMMNs`        /dNMMMMMMMMMMMMm.        -mMMm.   /MN-              
+                      -dMMMMMMMMMMMNh-            -odNMMMMMMNmo`         `dMM+   `hMN-              
+                       `+hNMMMMMMmo-                 `:+sso/-            -NMN:  :mMMM:              
+                          .:///:.                                        yMMMd-:mMMMMo              
+                                           `.::.``                      .MMMMMNMMMMMN+              
+                                       `/ohmNNNd+`                      :MMMMMMMMMNh-               
+                                     .:yNMMMMMN-                        .NmmMMMMMd:`                
+                                  `+dmNMMMMMMMMdo/`  ``                  -.:MMMMo`                  
+                               .+ymNMMMMMMMMMMMMMNmdmmms.                  `NMNo                    
+                              +mMMMMMMMMMMMMMMMMMMMMMMMMmdy:`               sMy`                    
+                            `+NMMMMMMMMMMMMMMMMMMMMMMMMMMMMNd/              .h/                     
+                            /NMMMMMNdhysssyyysoymmddNMMMMMMMMo               `                      
+                            :dNMMMd:``     ``   ..``sNMMMMMmy`                                      
+                             `/shy.     syhdds/-`   `/dmmmh-`                                       
+                                        +ysoymNh-     `...`                                         
+                                            `.-`                      
+                                            
+                                            
+                     ____                        _   _             _   
+                    |  _ \ _____      _____ _ __| | | |_   _ _ __ | |_ 
+                    | |_) / _ \ \ /\ / / _ \ '__| |_| | | | | '_ \| __|
+                    |  __/ (_) \ V  V /  __/ |  |  _  | |_| | | | | |_ 
+                    |_|   \___/ \_/\_/ \___|_|  |_| |_|\__,_|_| |_|\__|                            
+
+                                             
+                                             
+                                             " -ForegroundColor yellow
+Function List-Menu {
+    Write-Host "Welcome to PowerHunt"
+}
